@@ -52,6 +52,7 @@ public class XO {
         int[] cordinateArr = { 0, 0 };
         int count = 0;
         System.out.println("\nLET'S START THE GAME.\n");
+        this.showGrid();
         while (count < 5) {
             System.out.print(this.name1 + "'s turn: ");
             for (int i = 0; i < cordinateArr.length; i++) {
